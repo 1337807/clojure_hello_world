@@ -3,5 +3,5 @@
             [hello-world.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "Hello World should print 'Hello World!'"
+    (is (= "Hello World!\n" (with-out-str (hello_world))))))

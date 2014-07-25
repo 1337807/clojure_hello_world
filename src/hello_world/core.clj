@@ -1,4 +1,5 @@
 (ns hello-world.core)
 
-(defn foo
-  (println x "Hello World!"))
+(defn hello_world
+  []
+  (println "Hello World!"))
